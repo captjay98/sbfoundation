@@ -1,0 +1,291 @@
+/* Apply some basic styles to the body and main container */
+body {
+  
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  /* width: 100%; */
+  margin-left: 5%;
+  margin-right: 5%;
+  background: linear-gradient(135deg,  #2ce0e3, #170f37 );
+  
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header and navigation bar 
+background: linear-gradient(135deg, #2ce0e3, #cdfff0);*/
+header {
+  
+  background: linear-gradient(135deg, #170f37, #2ce0e3 );
+  
+  padding: 10px;
+}
+
+.logo {
+  
+  text-align: center;
+  padding-bottom: 25px ;
+  
+}
+
+.nav{
+  padding-bottom: 25px ;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+
+/* Style the banner section */
+#home {
+  text-align: center;
+  background: linear-gradient(135deg, #2ce0e3, #cdfff0);
+  border-radius: 15px;
+  padding: 40px;
+  height: 555px;
+  color: #170f37;
+}
+
+#home h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#home p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#home a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+.about{
+  height: 255px;
+  background: linear-gradient(135deg,  #cdfff0, #2ce0e3);
+  border-radius: 25px;
+  padding:25px;  
+  text-align: center;
+}
+
+/* Style the sections */
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style the causes section */
+
+
+.causes {
+  height: 500px;
+  display: flex; 
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(135deg,  #2ce0e3, #170f37 );
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cause {
+  /* flex-basis: calc(33.33% - 20px); */
+  width: 30%;
+  height: 300px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: linear-gradient(135deg, #2ce0e3, #cdfff0);
+  border-radius: 15px;
+  color: #170f37;
+
+}
+
+.cause img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.cause h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.cause p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.cause a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+
+
+@media (max-width: 767px) {
+  .causes{
+    height: 1000px;
+  }
+  .cause {
+    width: 100%; /* Take up full width on mobile */
+    height: 300px;
+  }
+}
+
+/* Style the events section */
+
+.events {
+  height: 500px;
+  display: flex; 
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(135deg,  #2ce0e3, #170f37 );
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.event {
+  /* flex-basis: calc(33.33% - 20px); */
+  /* width: 30%; */
+  /* height: 200px; */
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: linear-gradient(135deg, #2ce0e3, #cdfff0);
+  border-radius: 15px;
+  color: #170f37;
+}
+.event h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.event p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.event a {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .events{
+    height: 500px;
+  }
+  .event {
+    width: 100%; /* Take up full width on mobile */
+    height: 200px;
+    background-color:red;
+  }
+}
+
+
+/* Style the donate section */
+
+.donate{
+  height: 155px;
+  background: linear-gradient(135deg, #2ce0e3, #cdfff0);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.donate h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.donate p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style the get involved section */
+#get-involved h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#get-involved p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style the contact section */
+
+.contact{
+  height: 155px;
+  background: linear-gradient(135deg, #2ce0e3, #cdfff0);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 155px;
+  background: linear-gradient(135deg, #2ce0e3, #cdfff0);
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
